@@ -198,7 +198,11 @@ align-items: center;
 padding-left: 12px;
 background-color: white;
 }
-
+.home-icon{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
 .circle{
     background-color: white;
     display: grid;
