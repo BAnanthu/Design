@@ -37,7 +37,7 @@ body{
     position: fixed;
 }
 .body{
-  
+    max-width: 414px;
     background-color: #E7E1FF;
     display: grid;
     grid-template-columns: .5fr 10fr .5fr;
@@ -94,7 +94,7 @@ body{
     z-index: 1; */
     background-color: #3F2F87;
     width: 100%;
-    max-width: 454px;
+    /* max-width: 414px; */
     height: 60px;
     display: grid;
     justify-content: center;
