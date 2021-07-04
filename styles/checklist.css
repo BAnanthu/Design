@@ -90,7 +90,7 @@ body{
     bottom: 0;
     z-index: 1;
     background-color: #3F2F87;
-    width: 100%;
+    max-width: 414px;
     height: 60px;
     display: grid;
     justify-content: center;
