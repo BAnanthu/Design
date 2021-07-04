@@ -25,7 +25,7 @@
             <a href="https://bananthu.github.io/Design/inspectionforms/C1.html"><i class="fas fa-chevron-left" style="color: white; font-size: 25px;"></i></a>
         </div>
         <div class="appbar-title">
-            <h4>INSCEPTION FORM</h4>
+            <h4>INSPECTION FORM</h4>
         </div>
         <div class="home-icon">
             <a href="https://bananthu.github.io/Design/home.html"><i class="fas fa-home" style="color: white; font-size: 25px;"></i></a>
@@ -68,19 +68,19 @@
             <div class="label">Major</div>
             <div class=""></div>
             <div class=""></div>
-            <div class="action" onmousedown="popup()"><p> Comment</p><div class="circle" style="font-size: 12px;"><i class="fas fa-arrow-up"></i></div></div>
+            <div class="action" onmousedown="popup('Comment')"><p> Comment</p><div class="circle" style="font-size: 12px;"><i class="fas fa-arrow-up"></i></div></div>
             <div class=""></div>
-            <div class="action"  onmousedown="popup()"><p> Client Action</p><div class="circle" style="font-size: 12px;"><i class="fas fa-arrow-up"></i></div></div>
-            <div class=""></div>
-            <div class=""></div>
+            <div class="action"  onmousedown="popup('Client Action')"><p> Client Action</p><div class="circle" style="font-size: 12px;"><i class="fas fa-arrow-up"></i></div></div>
             <div class=""></div>
             <div class=""></div>
             <div class=""></div>
             <div class=""></div>
             <div class=""></div>
-            <div class="icons"><i class="fas fa-camera"></i></div>
             <div class=""></div>
-            <div class="icons"><i class="fas fa-qrcode"></i></div>
+            <div class=""></div>
+            <div class="icons"> <a href="https://bananthu.github.io/Design/camera/camera1.html" style="color: black;"><i class="fas fa-camera"></i></a></div>
+            <div class=""></div>
+            <div class="icons"><a href="https://bananthu.github.io/Design/camera/scanner1.html" style="color: black;"><i class="fas fa-qrcode"></i></a></div>
             <div class=""></div>
             <div class=""></div>
             <div class=""></div>
@@ -112,10 +112,11 @@
     document.getElementById('d').className="opreation";
     document.getElementById(id).className="active";
     if(id=='d'){
-        popup();
+        popup('Comment');
     }
 }
-    function popup(){
+function popup(tst){
+        document.getElementById('popuptitle').innerHTML=tst;
         document.getElementById('popup').className="popup";
     }
     function closing(){
