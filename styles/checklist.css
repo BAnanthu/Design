@@ -3,9 +3,7 @@
     padding: 0%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-body{
-    /* background-color: #E7E1FF; */
-}
+
 .appbar{
     max-width: 414px;
     position: fixed;
@@ -35,7 +33,7 @@ body{
 }
 
 .body{
-  
+  height: 100vh;
     background-color: #E7E1FF;
     display: grid;
     grid-template-columns: .5fr 10fr .5fr;
@@ -87,9 +85,9 @@ body{
 
 }
 .bottom{
-    /* position: absolute;
+    position: absolute;
     bottom: 0;
-    z-index: 1; */
+    z-index: 1;
     background-color: #3F2F87;
     width: 100%;
     max-width: 414px;
