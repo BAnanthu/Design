@@ -13,6 +13,11 @@
     display: grid;
     grid-template-columns: 1fr 6fr 1fr;
 }
+.home-icon{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
 .back-icon{
     grid-column-start: 1;
     grid-column-end: 2;

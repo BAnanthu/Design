@@ -39,7 +39,11 @@
     grid-template-columns: .5fr 10fr .5fr;
     grid-gap: 20px;
 }
-
+.home-icon{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
 .card-container{
     grid-column:2/3;
     /* background-color: blue; */

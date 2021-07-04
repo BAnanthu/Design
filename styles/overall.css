@@ -108,3 +108,8 @@ input{
     justify-content: left;
     color: #47388A;
 }
+.home-icon{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
